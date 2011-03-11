@@ -1,8 +1,3 @@
-'''
-Created on 24/feb/2011
-
-@author: A144220
-'''
 import random
 
 class SuperEnalotto():
@@ -24,11 +19,18 @@ class SuperEnalotto():
         
         random.shuffle(sacco)
         
-        for i in range(0, 6):
+        i = 0
+        while i < 6:
             indice = random.randint(0,89)
             if sacco[indice] <> '':
                 serie.append(sacco[indice])
                 sacco[indice] = ''
+                i = i+1
         
         serie.sort()
         return serie
+
+if __name__ == "__main__":
+    a = SuperEnalotto()
+    s = a.calculate()
+    print str(s)
