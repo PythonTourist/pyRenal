@@ -21,7 +21,7 @@ class pyRenalgtk:
 
 #Handler for File->Win4Life
     def on_neww4l_activate(self, widget):
-#Instance of the SuperEnalotto Generator
+#Instance of the Win4Life Generator
         w4l = Win4Life()
 #We need a TextBuffer object to be passed to the TextView
         buffer = gtk.TextBuffer() 
