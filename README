@@ -1,11 +1,13 @@
 PYRENAL
 
-This is my first coding in Python, so be patience!
+This is my first coding in Python, i made this program for a study purposal.
 
 This application will generate random numbers for italian's lottery Super Enalotto
 and Win4Life.
 
-Six numbers will be generated for Super Enalotto.
-Ten numbers will be generaeted for Win4Life.
+Recently i begin the coding for make the extraction engine parametric, so will be easy to add more lottery.
 
-That's all.
+FUTURE PLAN
+- Possibility to choice from different random extraction type
+- Database with real historical extraction
+- Porting to Maemo 5
