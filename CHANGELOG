@@ -1,0 +1,10 @@
+CHANGELOG
+
+--- pyRenal 0.1.4
+
+# Win4Life.py
+	* Added: Reshuffle of the sack at every extraction. More randomness.
+	
+# extractionEngine.py (New)
+	* Added: Extraction engine with parameters
+	* Added: Command line args (Still not functional)

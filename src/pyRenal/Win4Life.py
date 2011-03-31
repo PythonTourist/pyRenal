@@ -25,12 +25,8 @@ class Win4Life(object):
             if sacco[indice] <> '':
                 serie.append(sacco[indice])
                 sacco[indice] = ''
+                random.shuffle(sacco)
                 i = i+1
-#        for i in range(0, 10):
-#            indice = random.randint(0,19)
-#            if sacco[indice] <> '':
-#                serie.append(sacco[indice])
-#                sacco[indice] = ''
         
         serie.sort()
         return serie
